@@ -1,0 +1,1197 @@
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+Partial Class FrmKnowledge
+    Inherits System.Windows.Forms.Form
+
+    'Form overrides dispose to clean up the component list.
+    <System.Diagnostics.DebuggerNonUserCode()> Protected Overrides Sub Dispose(ByVal disposing As Boolean)
+        Try
+            If disposing AndAlso components IsNot Nothing Then
+                components.Dispose()
+            End If
+        Finally
+            MyBase.Dispose(disposing)
+        End Try
+    End Sub
+
+    'Required by the Windows Form Designer
+    Private components As System.ComponentModel.IContainer
+
+    'NOTE: The following procedure is required by the Windows Form Designer
+    'It can be modified using the Windows Form Designer.  
+    'Do not modify it using the code editor.
+    <System.Diagnostics.DebuggerStepThrough()> _
+    Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FrmKnowledge))
+        Dim TileItemElement3 As DevExpress.XtraEditors.TileItemElement = New DevExpress.XtraEditors.TileItemElement()
+        Dim TileItemElement4 As DevExpress.XtraEditors.TileItemElement = New DevExpress.XtraEditors.TileItemElement()
+        Me.Panel5 = New System.Windows.Forms.Panel()
+        Me.TabPage2 = New System.Windows.Forms.TabPage()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.Panel3 = New System.Windows.Forms.Panel()
+        Me.SimpleButton1 = New DevExpress.XtraEditors.SimpleButton()
+        Me.GroupBox4 = New System.Windows.Forms.GroupBox()
+        Me.v4 = New DevExpress.XtraEditors.TextEdit()
+        Me.v3 = New DevExpress.XtraEditors.ComboBoxEdit()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.v2 = New DevExpress.XtraEditors.TextEdit()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.v1 = New System.Windows.Forms.MaskedTextBox()
+        Me.TabPage3 = New System.Windows.Forms.TabPage()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.GroupBox3 = New System.Windows.Forms.GroupBox()
+        Me.SimpleButton4 = New DevExpress.XtraEditors.SimpleButton()
+        Me.GroupBox5 = New System.Windows.Forms.GroupBox()
+        Me.l2 = New DevExpress.XtraEditors.TextEdit()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.o2 = New DevExpress.XtraEditors.TextEdit()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.s2 = New DevExpress.XtraEditors.TextEdit()
+        Me.Label12 = New System.Windows.Forms.Label()
+        Me.groupBox2 = New System.Windows.Forms.GroupBox()
+        Me.l1 = New DevExpress.XtraEditors.TextEdit()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.o1 = New DevExpress.XtraEditors.TextEdit()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.s1 = New DevExpress.XtraEditors.TextEdit()
+        Me.label37 = New System.Windows.Forms.Label()
+        Me.SimpleButton7 = New DevExpress.XtraEditors.SimpleButton()
+        Me.TabControl1 = New System.Windows.Forms.TabControl()
+        Me.TabPage4 = New System.Windows.Forms.TabPage()
+        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
+        Me.Panel4 = New System.Windows.Forms.Panel()
+        Me.SimpleButton2 = New DevExpress.XtraEditors.SimpleButton()
+        Me.GroupBox6 = New System.Windows.Forms.GroupBox()
+        Me.Label15 = New System.Windows.Forms.Label()
+        Me.c4 = New DevExpress.XtraEditors.TextEdit()
+        Me.c3 = New DevExpress.XtraEditors.ComboBoxEdit()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.GroupBox7 = New System.Windows.Forms.GroupBox()
+        Me.c2 = New DevExpress.XtraEditors.TextEdit()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.Label14 = New System.Windows.Forms.Label()
+        Me.c1 = New System.Windows.Forms.MaskedTextBox()
+        Me.TabPage5 = New System.Windows.Forms.TabPage()
+        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
+        Me.Panel6 = New System.Windows.Forms.Panel()
+        Me.SimpleButton3 = New DevExpress.XtraEditors.SimpleButton()
+        Me.GroupBox8 = New System.Windows.Forms.GroupBox()
+        Me.d5 = New DevExpress.XtraEditors.ComboBoxEdit()
+        Me.Label16 = New System.Windows.Forms.Label()
+        Me.d4 = New DevExpress.XtraEditors.TextEdit()
+        Me.d3 = New DevExpress.XtraEditors.ComboBoxEdit()
+        Me.Label17 = New System.Windows.Forms.Label()
+        Me.Label18 = New System.Windows.Forms.Label()
+        Me.GroupBox9 = New System.Windows.Forms.GroupBox()
+        Me.d2 = New DevExpress.XtraEditors.TextEdit()
+        Me.Label19 = New System.Windows.Forms.Label()
+        Me.Label20 = New System.Windows.Forms.Label()
+        Me.d1 = New System.Windows.Forms.MaskedTextBox()
+        Me.TabPage6 = New System.Windows.Forms.TabPage()
+        Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.TileGroup2 = New DevExpress.XtraEditors.TileGroup()
+        Me.TileItem3 = New DevExpress.XtraEditors.TileItem()
+        Me.TileItem5 = New DevExpress.XtraEditors.TileItem()
+        Me.TileControl1 = New DevExpress.XtraEditors.TileControl()
+        Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.StatusStrip1 = New System.Windows.Forms.StatusStrip()
+        Me.ToolStripStatusLabel3 = New System.Windows.Forms.ToolStripStatusLabel()
+        Me.ToolStripStatusLabel4 = New System.Windows.Forms.ToolStripStatusLabel()
+        Me.ToolStripStatusLabel1 = New System.Windows.Forms.ToolStripStatusLabel()
+        Me.ToolStripStatusLabel2 = New System.Windows.Forms.ToolStripStatusLabel()
+        Me.SerialPort1 = New System.IO.Ports.SerialPort(Me.components)
+        Me.SimpleButton5 = New DevExpress.XtraEditors.SimpleButton()
+        Me.TabPage2.SuspendLayout
+        CType(Me.PictureBox2,System.ComponentModel.ISupportInitialize).BeginInit
+        Me.Panel3.SuspendLayout
+        Me.GroupBox4.SuspendLayout
+        CType(Me.v4.Properties,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.v3.Properties,System.ComponentModel.ISupportInitialize).BeginInit
+        Me.GroupBox1.SuspendLayout
+        CType(Me.v2.Properties,System.ComponentModel.ISupportInitialize).BeginInit
+        Me.TabPage3.SuspendLayout
+        CType(Me.PictureBox1,System.ComponentModel.ISupportInitialize).BeginInit
+        Me.GroupBox3.SuspendLayout
+        Me.GroupBox5.SuspendLayout
+        CType(Me.l2.Properties,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.o2.Properties,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.s2.Properties,System.ComponentModel.ISupportInitialize).BeginInit
+        Me.groupBox2.SuspendLayout
+        CType(Me.l1.Properties,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.o1.Properties,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.s1.Properties,System.ComponentModel.ISupportInitialize).BeginInit
+        Me.TabControl1.SuspendLayout
+        Me.TabPage4.SuspendLayout
+        CType(Me.PictureBox3,System.ComponentModel.ISupportInitialize).BeginInit
+        Me.Panel4.SuspendLayout
+        Me.GroupBox6.SuspendLayout
+        CType(Me.c4.Properties,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.c3.Properties,System.ComponentModel.ISupportInitialize).BeginInit
+        Me.GroupBox7.SuspendLayout
+        CType(Me.c2.Properties,System.ComponentModel.ISupportInitialize).BeginInit
+        Me.TabPage5.SuspendLayout
+        CType(Me.PictureBox4,System.ComponentModel.ISupportInitialize).BeginInit
+        Me.Panel6.SuspendLayout
+        Me.GroupBox8.SuspendLayout
+        CType(Me.d5.Properties,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.d4.Properties,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.d3.Properties,System.ComponentModel.ISupportInitialize).BeginInit
+        Me.GroupBox9.SuspendLayout
+        CType(Me.d2.Properties,System.ComponentModel.ISupportInitialize).BeginInit
+        Me.Panel1.SuspendLayout
+        Me.StatusStrip1.SuspendLayout
+        Me.SuspendLayout
+        '
+        'Panel5
+        '
+        Me.Panel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel5.Location = New System.Drawing.Point(282, 30)
+        Me.Panel5.Name = "Panel5"
+        Me.Panel5.Size = New System.Drawing.Size(1029, 50)
+        Me.Panel5.TabIndex = 315
+        '
+        'TabPage2
+        '
+        Me.TabPage2.Controls.Add(Me.PictureBox2)
+        Me.TabPage2.Controls.Add(Me.Panel3)
+        Me.TabPage2.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage2.Name = "TabPage2"
+        Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage2.Size = New System.Drawing.Size(1025, 559)
+        Me.TabPage2.TabIndex = 3
+        Me.TabPage2.Text = "3"
+        Me.TabPage2.UseVisualStyleBackColor = true
+        '
+        'PictureBox2
+        '
+        Me.PictureBox2.Image = Global.ADRR_Prediction_System.My.Resources.Resources.viralload
+        Me.PictureBox2.Location = New System.Drawing.Point(422, 50)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(543, 378)
+        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox2.TabIndex = 1
+        Me.PictureBox2.TabStop = false
+        '
+        'Panel3
+        '
+        Me.Panel3.Controls.Add(Me.SimpleButton1)
+        Me.Panel3.Controls.Add(Me.GroupBox4)
+        Me.Panel3.Controls.Add(Me.GroupBox1)
+        Me.Panel3.Location = New System.Drawing.Point(6, 51)
+        Me.Panel3.Name = "Panel3"
+        Me.Panel3.Size = New System.Drawing.Size(410, 233)
+        Me.Panel3.TabIndex = 0
+        '
+        'SimpleButton1
+        '
+        Me.SimpleButton1.Appearance.BackColor = System.Drawing.Color.White
+        Me.SimpleButton1.Appearance.Options.UseBackColor = true
+        Me.SimpleButton1.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
+        Me.SimpleButton1.Image = CType(resources.GetObject("SimpleButton1.Image"),System.Drawing.Image)
+        Me.SimpleButton1.Location = New System.Drawing.Point(166, 184)
+        Me.SimpleButton1.Name = "SimpleButton1"
+        Me.SimpleButton1.Size = New System.Drawing.Size(196, 29)
+        Me.SimpleButton1.TabIndex = 142
+        Me.SimpleButton1.TabStop = false
+        Me.SimpleButton1.Text = "&SAVE and NOTIFY PATIENT"
+        '
+        'GroupBox4
+        '
+        Me.GroupBox4.Controls.Add(Me.v4)
+        Me.GroupBox4.Controls.Add(Me.v3)
+        Me.GroupBox4.Controls.Add(Me.Label4)
+        Me.GroupBox4.Controls.Add(Me.Label7)
+        Me.GroupBox4.Location = New System.Drawing.Point(16, 98)
+        Me.GroupBox4.Name = "GroupBox4"
+        Me.GroupBox4.Size = New System.Drawing.Size(380, 80)
+        Me.GroupBox4.TabIndex = 28
+        Me.GroupBox4.TabStop = false
+        Me.GroupBox4.Text = "Viral Load"
+        '
+        'v4
+        '
+        Me.v4.Location = New System.Drawing.Point(115, 50)
+        Me.v4.Name = "v4"
+        Me.v4.Properties.Appearance.BackColor = System.Drawing.Color.White
+        Me.v4.Properties.Appearance.Options.UseBackColor = true
+        Me.v4.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Office2003
+        Me.v4.Properties.Mask.BeepOnError = true
+        Me.v4.Properties.Mask.EditMask = "([ 0-9])* "
+        Me.v4.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.RegEx
+        Me.v4.Properties.Mask.ShowPlaceHolders = false
+        Me.v4.Size = New System.Drawing.Size(231, 20)
+        Me.v4.TabIndex = 27
+        '
+        'v3
+        '
+        Me.v3.Location = New System.Drawing.Point(115, 20)
+        Me.v3.Name = "v3"
+        Me.v3.Properties.Appearance.BackColor = System.Drawing.Color.White
+        Me.v3.Properties.Appearance.Options.UseBackColor = true
+        Me.v3.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+        Me.v3.Properties.Items.AddRange(New Object() {"Blood", "Urine", "Saliva", "Hairs"})
+        Me.v3.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor
+        Me.v3.Size = New System.Drawing.Size(231, 20)
+        Me.v3.TabIndex = 25
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = true
+        Me.Label4.Font = New System.Drawing.Font("Corbel", 9!)
+        Me.Label4.Location = New System.Drawing.Point(9, 26)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(93, 14)
+        Me.Label4.TabIndex = 26
+        Me.Label4.Text = "Nature of Sample"
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = true
+        Me.Label7.Font = New System.Drawing.Font("Corbel", 9!)
+        Me.Label7.Location = New System.Drawing.Point(9, 56)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(79, 14)
+        Me.Label7.TabIndex = 24
+        Me.Label7.Text = "Viral Load /1ml"
+        '
+        'GroupBox1
+        '
+        Me.GroupBox1.Controls.Add(Me.v2)
+        Me.GroupBox1.Controls.Add(Me.Label2)
+        Me.GroupBox1.Controls.Add(Me.Label3)
+        Me.GroupBox1.Controls.Add(Me.v1)
+        Me.GroupBox1.Location = New System.Drawing.Point(16, 12)
+        Me.GroupBox1.Name = "GroupBox1"
+        Me.GroupBox1.Size = New System.Drawing.Size(380, 80)
+        Me.GroupBox1.TabIndex = 27
+        Me.GroupBox1.TabStop = false
+        Me.GroupBox1.Text = "Viral Load"
+        '
+        'v2
+        '
+        Me.v2.Enabled = false
+        Me.v2.Location = New System.Drawing.Point(115, 48)
+        Me.v2.Name = "v2"
+        Me.v2.Properties.Appearance.BackColor = System.Drawing.Color.White
+        Me.v2.Properties.Appearance.Options.UseBackColor = true
+        Me.v2.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Office2003
+        Me.v2.Properties.Mask.BeepOnError = true
+        Me.v2.Properties.Mask.EditMask = "+263700000000"
+        Me.v2.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Simple
+        Me.v2.Size = New System.Drawing.Size(231, 20)
+        Me.v2.TabIndex = 23
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = true
+        Me.Label2.Font = New System.Drawing.Font("Corbel", 9!)
+        Me.Label2.Location = New System.Drawing.Point(11, 23)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(60, 14)
+        Me.Label2.TabIndex = 26
+        Me.Label2.Text = "ID Number"
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = true
+        Me.Label3.Font = New System.Drawing.Font("Corbel", 9!)
+        Me.Label3.Location = New System.Drawing.Point(9, 56)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(59, 14)
+        Me.Label3.TabIndex = 24
+        Me.Label3.Text = "Cell Phone"
+        '
+        'v1
+        '
+        Me.v1.Location = New System.Drawing.Point(115, 20)
+        Me.v1.Mask = "00-0000000 L 00"
+        Me.v1.Name = "v1"
+        Me.v1.Size = New System.Drawing.Size(231, 20)
+        Me.v1.TabIndex = 25
+        '
+        'TabPage3
+        '
+        Me.TabPage3.Controls.Add(Me.PictureBox1)
+        Me.TabPage3.Controls.Add(Me.GroupBox3)
+        Me.TabPage3.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage3.Name = "TabPage3"
+        Me.TabPage3.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage3.Size = New System.Drawing.Size(1025, 559)
+        Me.TabPage3.TabIndex = 2
+        Me.TabPage3.Text = "1"
+        Me.TabPage3.UseVisualStyleBackColor = true
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.Image = Global.ADRR_Prediction_System.My.Resources.Resources.blood
+        Me.PictureBox1.Location = New System.Drawing.Point(537, 48)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(482, 396)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox1.TabIndex = 4
+        Me.PictureBox1.TabStop = false
+        '
+        'GroupBox3
+        '
+        Me.GroupBox3.Controls.Add(Me.SimpleButton4)
+        Me.GroupBox3.Controls.Add(Me.GroupBox5)
+        Me.GroupBox3.Controls.Add(Me.groupBox2)
+        Me.GroupBox3.Controls.Add(Me.SimpleButton7)
+        Me.GroupBox3.Location = New System.Drawing.Point(25, 48)
+        Me.GroupBox3.Name = "GroupBox3"
+        Me.GroupBox3.Size = New System.Drawing.Size(490, 396)
+        Me.GroupBox3.TabIndex = 3
+        Me.GroupBox3.TabStop = false
+        Me.GroupBox3.Text = "CD4 Count & Viral Load"
+        '
+        'SimpleButton4
+        '
+        Me.SimpleButton4.Appearance.BackColor = System.Drawing.Color.White
+        Me.SimpleButton4.Appearance.Options.UseBackColor = true
+        Me.SimpleButton4.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
+        Me.SimpleButton4.Image = CType(resources.GetObject("SimpleButton4.Image"),System.Drawing.Image)
+        Me.SimpleButton4.Location = New System.Drawing.Point(281, 140)
+        Me.SimpleButton4.Name = "SimpleButton4"
+        Me.SimpleButton4.Size = New System.Drawing.Size(87, 29)
+        Me.SimpleButton4.TabIndex = 146
+        Me.SimpleButton4.TabStop = false
+        Me.SimpleButton4.Text = "&SAVE"
+        '
+        'GroupBox5
+        '
+        Me.GroupBox5.Controls.Add(Me.l2)
+        Me.GroupBox5.Controls.Add(Me.Label6)
+        Me.GroupBox5.Controls.Add(Me.o2)
+        Me.GroupBox5.Controls.Add(Me.Label11)
+        Me.GroupBox5.Controls.Add(Me.s2)
+        Me.GroupBox5.Controls.Add(Me.Label12)
+        Me.GroupBox5.Font = New System.Drawing.Font("Corbel", 9!)
+        Me.GroupBox5.Location = New System.Drawing.Point(22, 205)
+        Me.GroupBox5.Name = "GroupBox5"
+        Me.GroupBox5.Size = New System.Drawing.Size(400, 115)
+        Me.GroupBox5.TabIndex = 145
+        Me.GroupBox5.TabStop = false
+        Me.GroupBox5.Text = "Viral Load Settings"
+        '
+        'l2
+        '
+        Me.l2.Location = New System.Drawing.Point(116, 78)
+        Me.l2.Name = "l2"
+        Me.l2.Properties.Appearance.BackColor = System.Drawing.Color.White
+        Me.l2.Properties.Appearance.Options.UseBackColor = true
+        Me.l2.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Office2003
+        Me.l2.Properties.Mask.BeepOnError = true
+        Me.l2.Properties.Mask.EditMask = "n"
+        Me.l2.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Numeric
+        Me.l2.Properties.Mask.ShowPlaceHolders = false
+        Me.l2.Size = New System.Drawing.Size(231, 20)
+        Me.l2.TabIndex = 19
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = true
+        Me.Label6.Font = New System.Drawing.Font("Corbel", 9!)
+        Me.Label6.Location = New System.Drawing.Point(19, 81)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(57, 14)
+        Me.Label6.TabIndex = 20
+        Me.Label6.Text = "Low Level"
+        '
+        'o2
+        '
+        Me.o2.Location = New System.Drawing.Point(115, 26)
+        Me.o2.Name = "o2"
+        Me.o2.Properties.Appearance.BackColor = System.Drawing.Color.White
+        Me.o2.Properties.Appearance.Options.UseBackColor = true
+        Me.o2.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Office2003
+        Me.o2.Properties.Mask.BeepOnError = true
+        Me.o2.Properties.Mask.EditMask = "n"
+        Me.o2.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Numeric
+        Me.o2.Properties.Mask.ShowPlaceHolders = false
+        Me.o2.Size = New System.Drawing.Size(231, 20)
+        Me.o2.TabIndex = 19
+        '
+        'Label11
+        '
+        Me.Label11.AutoSize = true
+        Me.Label11.Font = New System.Drawing.Font("Corbel", 9!)
+        Me.Label11.Location = New System.Drawing.Point(18, 29)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(81, 14)
+        Me.Label11.TabIndex = 20
+        Me.Label11.Text = "Optimum level"
+        '
+        's2
+        '
+        Me.s2.Location = New System.Drawing.Point(115, 52)
+        Me.s2.Name = "s2"
+        Me.s2.Properties.Appearance.BackColor = System.Drawing.Color.White
+        Me.s2.Properties.Appearance.Options.UseBackColor = true
+        Me.s2.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Office2003
+        Me.s2.Properties.Mask.BeepOnError = true
+        Me.s2.Properties.Mask.EditMask = "n"
+        Me.s2.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Numeric
+        Me.s2.Properties.Mask.ShowPlaceHolders = false
+        Me.s2.Size = New System.Drawing.Size(231, 20)
+        Me.s2.TabIndex = 19
+        '
+        'Label12
+        '
+        Me.Label12.AutoSize = true
+        Me.Label12.Font = New System.Drawing.Font("Corbel", 9!)
+        Me.Label12.Location = New System.Drawing.Point(18, 55)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(71, 14)
+        Me.Label12.TabIndex = 20
+        Me.Label12.Text = "Severe Level"
+        '
+        'groupBox2
+        '
+        Me.groupBox2.Controls.Add(Me.l1)
+        Me.groupBox2.Controls.Add(Me.Label5)
+        Me.groupBox2.Controls.Add(Me.o1)
+        Me.groupBox2.Controls.Add(Me.Label1)
+        Me.groupBox2.Controls.Add(Me.s1)
+        Me.groupBox2.Controls.Add(Me.label37)
+        Me.groupBox2.Font = New System.Drawing.Font("Corbel", 9!)
+        Me.groupBox2.Location = New System.Drawing.Point(23, 19)
+        Me.groupBox2.Name = "groupBox2"
+        Me.groupBox2.Size = New System.Drawing.Size(400, 115)
+        Me.groupBox2.TabIndex = 144
+        Me.groupBox2.TabStop = false
+        Me.groupBox2.Text = "CD4 Settings"
+        '
+        'l1
+        '
+        Me.l1.Location = New System.Drawing.Point(116, 78)
+        Me.l1.Name = "l1"
+        Me.l1.Properties.Appearance.BackColor = System.Drawing.Color.White
+        Me.l1.Properties.Appearance.Options.UseBackColor = true
+        Me.l1.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Office2003
+        Me.l1.Properties.Mask.BeepOnError = true
+        Me.l1.Properties.Mask.EditMask = "n"
+        Me.l1.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Numeric
+        Me.l1.Properties.Mask.ShowPlaceHolders = false
+        Me.l1.Size = New System.Drawing.Size(231, 20)
+        Me.l1.TabIndex = 19
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = true
+        Me.Label5.Font = New System.Drawing.Font("Corbel", 9!)
+        Me.Label5.Location = New System.Drawing.Point(19, 81)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(57, 14)
+        Me.Label5.TabIndex = 20
+        Me.Label5.Text = "Low Level"
+        '
+        'o1
+        '
+        Me.o1.Location = New System.Drawing.Point(115, 26)
+        Me.o1.Name = "o1"
+        Me.o1.Properties.Appearance.BackColor = System.Drawing.Color.White
+        Me.o1.Properties.Appearance.Options.UseBackColor = true
+        Me.o1.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Office2003
+        Me.o1.Properties.Mask.BeepOnError = true
+        Me.o1.Properties.Mask.EditMask = "n"
+        Me.o1.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Numeric
+        Me.o1.Properties.Mask.ShowPlaceHolders = false
+        Me.o1.Size = New System.Drawing.Size(231, 20)
+        Me.o1.TabIndex = 19
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = true
+        Me.Label1.Font = New System.Drawing.Font("Corbel", 9!)
+        Me.Label1.Location = New System.Drawing.Point(18, 29)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(81, 14)
+        Me.Label1.TabIndex = 20
+        Me.Label1.Text = "Optimum level"
+        '
+        's1
+        '
+        Me.s1.Location = New System.Drawing.Point(115, 52)
+        Me.s1.Name = "s1"
+        Me.s1.Properties.Appearance.BackColor = System.Drawing.Color.White
+        Me.s1.Properties.Appearance.Options.UseBackColor = true
+        Me.s1.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Office2003
+        Me.s1.Properties.Mask.BeepOnError = true
+        Me.s1.Properties.Mask.EditMask = "n"
+        Me.s1.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Numeric
+        Me.s1.Properties.Mask.ShowPlaceHolders = false
+        Me.s1.Size = New System.Drawing.Size(231, 20)
+        Me.s1.TabIndex = 19
+        '
+        'label37
+        '
+        Me.label37.AutoSize = true
+        Me.label37.Font = New System.Drawing.Font("Corbel", 9!)
+        Me.label37.Location = New System.Drawing.Point(18, 55)
+        Me.label37.Name = "label37"
+        Me.label37.Size = New System.Drawing.Size(71, 14)
+        Me.label37.TabIndex = 20
+        Me.label37.Text = "Severe Level"
+        '
+        'SimpleButton7
+        '
+        Me.SimpleButton7.Appearance.BackColor = System.Drawing.Color.White
+        Me.SimpleButton7.Appearance.Options.UseBackColor = true
+        Me.SimpleButton7.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
+        Me.SimpleButton7.Image = CType(resources.GetObject("SimpleButton7.Image"),System.Drawing.Image)
+        Me.SimpleButton7.Location = New System.Drawing.Point(282, 326)
+        Me.SimpleButton7.Name = "SimpleButton7"
+        Me.SimpleButton7.Size = New System.Drawing.Size(87, 29)
+        Me.SimpleButton7.TabIndex = 141
+        Me.SimpleButton7.TabStop = false
+        Me.SimpleButton7.Text = "&SAVE"
+        '
+        'TabControl1
+        '
+        Me.TabControl1.Controls.Add(Me.TabPage3)
+        Me.TabControl1.Controls.Add(Me.TabPage2)
+        Me.TabControl1.Controls.Add(Me.TabPage4)
+        Me.TabControl1.Controls.Add(Me.TabPage5)
+        Me.TabControl1.Controls.Add(Me.TabPage6)
+        Me.TabControl1.Location = New System.Drawing.Point(282, 34)
+        Me.TabControl1.Name = "TabControl1"
+        Me.TabControl1.SelectedIndex = 0
+        Me.TabControl1.Size = New System.Drawing.Size(1033, 585)
+        Me.TabControl1.TabIndex = 314
+        '
+        'TabPage4
+        '
+        Me.TabPage4.Controls.Add(Me.PictureBox3)
+        Me.TabPage4.Controls.Add(Me.Panel4)
+        Me.TabPage4.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage4.Name = "TabPage4"
+        Me.TabPage4.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage4.Size = New System.Drawing.Size(1025, 559)
+        Me.TabPage4.TabIndex = 4
+        Me.TabPage4.Text = "TabPage4"
+        Me.TabPage4.UseVisualStyleBackColor = true
+        '
+        'PictureBox3
+        '
+        Me.PictureBox3.Image = Global.ADRR_Prediction_System.My.Resources.Resources.cd4_count
+        Me.PictureBox3.Location = New System.Drawing.Point(422, 50)
+        Me.PictureBox3.Name = "PictureBox3"
+        Me.PictureBox3.Size = New System.Drawing.Size(543, 378)
+        Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox3.TabIndex = 3
+        Me.PictureBox3.TabStop = false
+        '
+        'Panel4
+        '
+        Me.Panel4.Controls.Add(Me.SimpleButton2)
+        Me.Panel4.Controls.Add(Me.GroupBox6)
+        Me.Panel4.Controls.Add(Me.GroupBox7)
+        Me.Panel4.Location = New System.Drawing.Point(6, 51)
+        Me.Panel4.Name = "Panel4"
+        Me.Panel4.Size = New System.Drawing.Size(410, 233)
+        Me.Panel4.TabIndex = 2
+        '
+        'SimpleButton2
+        '
+        Me.SimpleButton2.Appearance.BackColor = System.Drawing.Color.White
+        Me.SimpleButton2.Appearance.Options.UseBackColor = true
+        Me.SimpleButton2.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
+        Me.SimpleButton2.Image = CType(resources.GetObject("SimpleButton2.Image"),System.Drawing.Image)
+        Me.SimpleButton2.Location = New System.Drawing.Point(166, 184)
+        Me.SimpleButton2.Name = "SimpleButton2"
+        Me.SimpleButton2.Size = New System.Drawing.Size(196, 29)
+        Me.SimpleButton2.TabIndex = 142
+        Me.SimpleButton2.TabStop = false
+        Me.SimpleButton2.Text = "&SAVE and NOTIFY PATIENT"
+        '
+        'GroupBox6
+        '
+        Me.GroupBox6.Controls.Add(Me.Label15)
+        Me.GroupBox6.Controls.Add(Me.c4)
+        Me.GroupBox6.Controls.Add(Me.c3)
+        Me.GroupBox6.Controls.Add(Me.Label8)
+        Me.GroupBox6.Controls.Add(Me.Label9)
+        Me.GroupBox6.Location = New System.Drawing.Point(16, 98)
+        Me.GroupBox6.Name = "GroupBox6"
+        Me.GroupBox6.Size = New System.Drawing.Size(380, 80)
+        Me.GroupBox6.TabIndex = 28
+        Me.GroupBox6.TabStop = false
+        Me.GroupBox6.Text = "CD4 Count"
+        '
+        'Label15
+        '
+        Me.Label15.AutoSize = true
+        Me.Label15.Font = New System.Drawing.Font("Corbel", 9!)
+        Me.Label15.Location = New System.Drawing.Point(287, 56)
+        Me.Label15.Name = "Label15"
+        Me.Label15.Size = New System.Drawing.Size(58, 14)
+        Me.Label15.TabIndex = 28
+        Me.Label15.Text = "cells/mm2"
+        '
+        'c4
+        '
+        Me.c4.Location = New System.Drawing.Point(115, 50)
+        Me.c4.Name = "c4"
+        Me.c4.Properties.Appearance.BackColor = System.Drawing.Color.White
+        Me.c4.Properties.Appearance.Options.UseBackColor = true
+        Me.c4.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Office2003
+        Me.c4.Properties.Mask.BeepOnError = true
+        Me.c4.Properties.Mask.EditMask = "([ 0-9])* "
+        Me.c4.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.RegEx
+        Me.c4.Properties.Mask.ShowPlaceHolders = false
+        Me.c4.Size = New System.Drawing.Size(169, 20)
+        Me.c4.TabIndex = 27
+        '
+        'c3
+        '
+        Me.c3.Location = New System.Drawing.Point(115, 20)
+        Me.c3.Name = "c3"
+        Me.c3.Properties.Appearance.BackColor = System.Drawing.Color.White
+        Me.c3.Properties.Appearance.Options.UseBackColor = true
+        Me.c3.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+        Me.c3.Properties.Items.AddRange(New Object() {"Blood", "Urine", "Saliva", "Hairs"})
+        Me.c3.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor
+        Me.c3.Size = New System.Drawing.Size(231, 20)
+        Me.c3.TabIndex = 25
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = true
+        Me.Label8.Font = New System.Drawing.Font("Corbel", 9!)
+        Me.Label8.Location = New System.Drawing.Point(9, 26)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(93, 14)
+        Me.Label8.TabIndex = 26
+        Me.Label8.Text = "Nature of Sample"
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = true
+        Me.Label9.Font = New System.Drawing.Font("Corbel", 9!)
+        Me.Label9.Location = New System.Drawing.Point(9, 56)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(59, 14)
+        Me.Label9.TabIndex = 24
+        Me.Label9.Text = "Cd 4 Count"
+        '
+        'GroupBox7
+        '
+        Me.GroupBox7.Controls.Add(Me.c2)
+        Me.GroupBox7.Controls.Add(Me.Label10)
+        Me.GroupBox7.Controls.Add(Me.Label14)
+        Me.GroupBox7.Controls.Add(Me.c1)
+        Me.GroupBox7.Location = New System.Drawing.Point(16, 12)
+        Me.GroupBox7.Name = "GroupBox7"
+        Me.GroupBox7.Size = New System.Drawing.Size(380, 80)
+        Me.GroupBox7.TabIndex = 27
+        Me.GroupBox7.TabStop = false
+        Me.GroupBox7.Text = "CD4 Count"
+        '
+        'c2
+        '
+        Me.c2.Enabled = false
+        Me.c2.Location = New System.Drawing.Point(115, 48)
+        Me.c2.Name = "c2"
+        Me.c2.Properties.Appearance.BackColor = System.Drawing.Color.White
+        Me.c2.Properties.Appearance.Options.UseBackColor = true
+        Me.c2.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Office2003
+        Me.c2.Properties.Mask.BeepOnError = true
+        Me.c2.Properties.Mask.EditMask = "+263700000000"
+        Me.c2.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Simple
+        Me.c2.Size = New System.Drawing.Size(231, 20)
+        Me.c2.TabIndex = 23
+        '
+        'Label10
+        '
+        Me.Label10.AutoSize = true
+        Me.Label10.Font = New System.Drawing.Font("Corbel", 9!)
+        Me.Label10.Location = New System.Drawing.Point(11, 23)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(60, 14)
+        Me.Label10.TabIndex = 26
+        Me.Label10.Text = "ID Number"
+        '
+        'Label14
+        '
+        Me.Label14.AutoSize = true
+        Me.Label14.Font = New System.Drawing.Font("Corbel", 9!)
+        Me.Label14.Location = New System.Drawing.Point(9, 56)
+        Me.Label14.Name = "Label14"
+        Me.Label14.Size = New System.Drawing.Size(59, 14)
+        Me.Label14.TabIndex = 24
+        Me.Label14.Text = "Cell Phone"
+        '
+        'c1
+        '
+        Me.c1.Location = New System.Drawing.Point(115, 20)
+        Me.c1.Mask = "00-0000000 L 00"
+        Me.c1.Name = "c1"
+        Me.c1.Size = New System.Drawing.Size(231, 20)
+        Me.c1.TabIndex = 25
+        '
+        'TabPage5
+        '
+        Me.TabPage5.Controls.Add(Me.PictureBox4)
+        Me.TabPage5.Controls.Add(Me.Panel6)
+        Me.TabPage5.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage5.Name = "TabPage5"
+        Me.TabPage5.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage5.Size = New System.Drawing.Size(1025, 559)
+        Me.TabPage5.TabIndex = 5
+        Me.TabPage5.Text = "TabPage5"
+        Me.TabPage5.UseVisualStyleBackColor = true
+        '
+        'PictureBox4
+        '
+        Me.PictureBox4.Image = Global.ADRR_Prediction_System.My.Resources.Resources.drugs
+        Me.PictureBox4.Location = New System.Drawing.Point(422, 77)
+        Me.PictureBox4.Name = "PictureBox4"
+        Me.PictureBox4.Size = New System.Drawing.Size(543, 378)
+        Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox4.TabIndex = 5
+        Me.PictureBox4.TabStop = false
+        '
+        'Panel6
+        '
+        Me.Panel6.Controls.Add(Me.SimpleButton3)
+        Me.Panel6.Controls.Add(Me.GroupBox8)
+        Me.Panel6.Controls.Add(Me.GroupBox9)
+        Me.Panel6.Location = New System.Drawing.Point(6, 78)
+        Me.Panel6.Name = "Panel6"
+        Me.Panel6.Size = New System.Drawing.Size(410, 233)
+        Me.Panel6.TabIndex = 4
+        '
+        'SimpleButton3
+        '
+        Me.SimpleButton3.Appearance.BackColor = System.Drawing.Color.White
+        Me.SimpleButton3.Appearance.Options.UseBackColor = true
+        Me.SimpleButton3.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
+        Me.SimpleButton3.Image = CType(resources.GetObject("SimpleButton3.Image"),System.Drawing.Image)
+        Me.SimpleButton3.Location = New System.Drawing.Point(166, 184)
+        Me.SimpleButton3.Name = "SimpleButton3"
+        Me.SimpleButton3.Size = New System.Drawing.Size(196, 29)
+        Me.SimpleButton3.TabIndex = 142
+        Me.SimpleButton3.TabStop = false
+        Me.SimpleButton3.Text = "&SAVE and NOTIFY PATIENT"
+        '
+        'GroupBox8
+        '
+        Me.GroupBox8.Controls.Add(Me.d5)
+        Me.GroupBox8.Controls.Add(Me.Label16)
+        Me.GroupBox8.Controls.Add(Me.d4)
+        Me.GroupBox8.Controls.Add(Me.d3)
+        Me.GroupBox8.Controls.Add(Me.Label17)
+        Me.GroupBox8.Controls.Add(Me.Label18)
+        Me.GroupBox8.Location = New System.Drawing.Point(16, 98)
+        Me.GroupBox8.Name = "GroupBox8"
+        Me.GroupBox8.Size = New System.Drawing.Size(380, 80)
+        Me.GroupBox8.TabIndex = 28
+        Me.GroupBox8.TabStop = false
+        Me.GroupBox8.Text = "Prescription"
+        '
+        'd5
+        '
+        Me.d5.Location = New System.Drawing.Point(257, 50)
+        Me.d5.Name = "d5"
+        Me.d5.Properties.Appearance.BackColor = System.Drawing.Color.White
+        Me.d5.Properties.Appearance.Options.UseBackColor = true
+        Me.d5.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+        Me.d5.Properties.Items.AddRange(New Object() {"Daily ", "Weekly", "FortNightly", "Monthly"})
+        Me.d5.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor
+        Me.d5.Size = New System.Drawing.Size(100, 20)
+        Me.d5.TabIndex = 29
+        '
+        'Label16
+        '
+        Me.Label16.AutoSize = true
+        Me.Label16.Font = New System.Drawing.Font("Corbel", 9!)
+        Me.Label16.Location = New System.Drawing.Point(227, 56)
+        Me.Label16.Name = "Label16"
+        Me.Label16.Size = New System.Drawing.Size(23, 14)
+        Me.Label16.TabIndex = 28
+        Me.Label16.Text = "mg"
+        '
+        'd4
+        '
+        Me.d4.Location = New System.Drawing.Point(115, 50)
+        Me.d4.Name = "d4"
+        Me.d4.Properties.Appearance.BackColor = System.Drawing.Color.White
+        Me.d4.Properties.Appearance.Options.UseBackColor = true
+        Me.d4.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Office2003
+        Me.d4.Properties.Mask.BeepOnError = true
+        Me.d4.Properties.Mask.EditMask = "([ 0-9])* "
+        Me.d4.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.RegEx
+        Me.d4.Properties.Mask.ShowPlaceHolders = false
+        Me.d4.Size = New System.Drawing.Size(106, 20)
+        Me.d4.TabIndex = 27
+        '
+        'd3
+        '
+        Me.d3.Location = New System.Drawing.Point(115, 20)
+        Me.d3.Name = "d3"
+        Me.d3.Properties.Appearance.BackColor = System.Drawing.Color.White
+        Me.d3.Properties.Appearance.Options.UseBackColor = true
+        Me.d3.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+        Me.d3.Properties.Items.AddRange(New Object() {"Blood", "Urine", "Saliva", "Hairs"})
+        Me.d3.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor
+        Me.d3.Size = New System.Drawing.Size(231, 20)
+        Me.d3.TabIndex = 25
+        '
+        'Label17
+        '
+        Me.Label17.AutoSize = true
+        Me.Label17.Font = New System.Drawing.Font("Corbel", 9!)
+        Me.Label17.Location = New System.Drawing.Point(9, 26)
+        Me.Label17.Name = "Label17"
+        Me.Label17.Size = New System.Drawing.Size(67, 14)
+        Me.Label17.TabIndex = 26
+        Me.Label17.Text = "Drug to take"
+        '
+        'Label18
+        '
+        Me.Label18.AutoSize = true
+        Me.Label18.Font = New System.Drawing.Font("Corbel", 9!)
+        Me.Label18.Location = New System.Drawing.Point(9, 56)
+        Me.Label18.Name = "Label18"
+        Me.Label18.Size = New System.Drawing.Size(44, 14)
+        Me.Label18.TabIndex = 24
+        Me.Label18.Text = "Dosage"
+        '
+        'GroupBox9
+        '
+        Me.GroupBox9.Controls.Add(Me.d2)
+        Me.GroupBox9.Controls.Add(Me.Label19)
+        Me.GroupBox9.Controls.Add(Me.Label20)
+        Me.GroupBox9.Controls.Add(Me.d1)
+        Me.GroupBox9.Location = New System.Drawing.Point(16, 12)
+        Me.GroupBox9.Name = "GroupBox9"
+        Me.GroupBox9.Size = New System.Drawing.Size(380, 80)
+        Me.GroupBox9.TabIndex = 27
+        Me.GroupBox9.TabStop = false
+        Me.GroupBox9.Text = "Drug Prescriptions"
+        '
+        'd2
+        '
+        Me.d2.Enabled = false
+        Me.d2.Location = New System.Drawing.Point(115, 48)
+        Me.d2.Name = "d2"
+        Me.d2.Properties.Appearance.BackColor = System.Drawing.Color.White
+        Me.d2.Properties.Appearance.Options.UseBackColor = true
+        Me.d2.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Office2003
+        Me.d2.Properties.Mask.BeepOnError = true
+        Me.d2.Properties.Mask.EditMask = "+263700000000"
+        Me.d2.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Simple
+        Me.d2.Size = New System.Drawing.Size(231, 20)
+        Me.d2.TabIndex = 23
+        '
+        'Label19
+        '
+        Me.Label19.AutoSize = true
+        Me.Label19.Font = New System.Drawing.Font("Corbel", 9!)
+        Me.Label19.Location = New System.Drawing.Point(11, 23)
+        Me.Label19.Name = "Label19"
+        Me.Label19.Size = New System.Drawing.Size(60, 14)
+        Me.Label19.TabIndex = 26
+        Me.Label19.Text = "ID Number"
+        '
+        'Label20
+        '
+        Me.Label20.AutoSize = true
+        Me.Label20.Font = New System.Drawing.Font("Corbel", 9!)
+        Me.Label20.Location = New System.Drawing.Point(9, 56)
+        Me.Label20.Name = "Label20"
+        Me.Label20.Size = New System.Drawing.Size(59, 14)
+        Me.Label20.TabIndex = 24
+        Me.Label20.Text = "Cell Phone"
+        '
+        'd1
+        '
+        Me.d1.Location = New System.Drawing.Point(115, 20)
+        Me.d1.Mask = "00-0000000 L 00"
+        Me.d1.Name = "d1"
+        Me.d1.Size = New System.Drawing.Size(231, 20)
+        Me.d1.TabIndex = 25
+        '
+        'TabPage6
+        '
+        Me.TabPage6.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage6.Name = "TabPage6"
+        Me.TabPage6.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage6.Size = New System.Drawing.Size(1025, 559)
+        Me.TabPage6.TabIndex = 6
+        Me.TabPage6.Text = "TabPage6"
+        Me.TabPage6.UseVisualStyleBackColor = true
+        '
+        'Panel2
+        '
+        Me.Panel2.BackColor = System.Drawing.Color.FromArgb(CType(CType(0,Byte),Integer), CType(CType(102,Byte),Integer), CType(CType(0,Byte),Integer))
+        Me.Panel2.Location = New System.Drawing.Point(-3, 1)
+        Me.Panel2.Name = "Panel2"
+        Me.Panel2.Size = New System.Drawing.Size(1686, 24)
+        Me.Panel2.TabIndex = 312
+        '
+        'TileGroup2
+        '
+        Me.TileGroup2.Items.Add(Me.TileItem3)
+        Me.TileGroup2.Items.Add(Me.TileItem5)
+        Me.TileGroup2.Name = "TileGroup2"
+        '
+        'TileItem3
+        '
+        TileItemElement3.Image = CType(resources.GetObject("TileItemElement3.Image"),System.Drawing.Image)
+        TileItemElement3.ImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter
+        TileItemElement3.Text = "CD4 Count Settings"
+        TileItemElement3.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.TopCenter
+        Me.TileItem3.Elements.Add(TileItemElement3)
+        Me.TileItem3.Id = 5
+        Me.TileItem3.ItemSize = DevExpress.XtraEditors.TileItemSize.Wide
+        Me.TileItem3.Name = "TileItem3"
+        '
+        'TileItem5
+        '
+        TileItemElement4.Image = CType(resources.GetObject("TileItemElement4.Image"),System.Drawing.Image)
+        TileItemElement4.ImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter
+        TileItemElement4.Text = "Viral Load Settings"
+        TileItemElement4.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.TopCenter
+        Me.TileItem5.Elements.Add(TileItemElement4)
+        Me.TileItem5.Id = 7
+        Me.TileItem5.ItemSize = DevExpress.XtraEditors.TileItemSize.Wide
+        Me.TileItem5.Name = "TileItem5"
+        '
+        'TileControl1
+        '
+        Me.TileControl1.AppearanceItem.Normal.BackColor = System.Drawing.Color.White
+        Me.TileControl1.AppearanceItem.Normal.BorderColor = System.Drawing.Color.Firebrick
+        Me.TileControl1.AppearanceItem.Normal.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.TileControl1.AppearanceItem.Normal.Options.UseBackColor = true
+        Me.TileControl1.AppearanceItem.Normal.Options.UseBorderColor = true
+        Me.TileControl1.AppearanceItem.Normal.Options.UseForeColor = true
+        Me.TileControl1.Cursor = System.Windows.Forms.Cursors.Default
+        Me.TileControl1.DragSize = New System.Drawing.Size(0, 0)
+        Me.TileControl1.Groups.Add(Me.TileGroup2)
+        Me.TileControl1.ItemSize = 100
+        Me.TileControl1.Location = New System.Drawing.Point(0, 32)
+        Me.TileControl1.MaxId = 10
+        Me.TileControl1.Name = "TileControl1"
+        Me.TileControl1.Size = New System.Drawing.Size(249, 428)
+        Me.TileControl1.TabIndex = 0
+        Me.TileControl1.Text = "TileControl1"
+        '
+        'Panel1
+        '
+        Me.Panel1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom)  _
+            Or System.Windows.Forms.AnchorStyles.Left)  _
+            Or System.Windows.Forms.AnchorStyles.Right),System.Windows.Forms.AnchorStyles)
+        Me.Panel1.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.Panel1.Controls.Add(Me.TileControl1)
+        Me.Panel1.Location = New System.Drawing.Point(1, -1)
+        Me.Panel1.Name = "Panel1"
+        Me.Panel1.Size = New System.Drawing.Size(249, 607)
+        Me.Panel1.TabIndex = 311
+        '
+        'StatusStrip1
+        '
+        Me.StatusStrip1.AutoSize = false
+        Me.StatusStrip1.GripStyle = System.Windows.Forms.ToolStripGripStyle.Visible
+        Me.StatusStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripStatusLabel3, Me.ToolStripStatusLabel4, Me.ToolStripStatusLabel1, Me.ToolStripStatusLabel2})
+        Me.StatusStrip1.Location = New System.Drawing.Point(0, 673)
+        Me.StatusStrip1.Name = "StatusStrip1"
+        Me.StatusStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.ManagerRenderMode
+        Me.StatusStrip1.Size = New System.Drawing.Size(1362, 68)
+        Me.StatusStrip1.TabIndex = 317
+        Me.StatusStrip1.Text = "StatusStrip1"
+        '
+        'ToolStripStatusLabel3
+        '
+        Me.ToolStripStatusLabel3.Name = "ToolStripStatusLabel3"
+        Me.ToolStripStatusLabel3.Size = New System.Drawing.Size(0, 63)
+        '
+        'ToolStripStatusLabel4
+        '
+        Me.ToolStripStatusLabel4.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
+        Me.ToolStripStatusLabel4.Name = "ToolStripStatusLabel4"
+        Me.ToolStripStatusLabel4.Size = New System.Drawing.Size(523, 63)
+        Me.ToolStripStatusLabel4.Text = ".                                                                                "& _ 
+    "                                                                                "& _ 
+    "           "
+        '
+        'ToolStripStatusLabel1
+        '
+        Me.ToolStripStatusLabel1.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!)
+        Me.ToolStripStatusLabel1.Name = "ToolStripStatusLabel1"
+        Me.ToolStripStatusLabel1.Size = New System.Drawing.Size(229, 63)
+        Me.ToolStripStatusLabel1.Text = "Antiretroviral Drug Resistance Rate Prediction System"
+        '
+        'ToolStripStatusLabel2
+        '
+        Me.ToolStripStatusLabel2.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!)
+        Me.ToolStripStatusLabel2.Name = "ToolStripStatusLabel2"
+        Me.ToolStripStatusLabel2.Size = New System.Drawing.Size(158, 63)
+        Me.ToolStripStatusLabel2.Text = "Copyright © 2017.  All rights reserved"
+        '
+        'SimpleButton5
+        '
+        Me.SimpleButton5.Appearance.BackColor = System.Drawing.Color.White
+        Me.SimpleButton5.Appearance.Options.UseBackColor = true
+        Me.SimpleButton5.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
+        Me.SimpleButton5.Image = CType(resources.GetObject("SimpleButton5.Image"),System.Drawing.Image)
+        Me.SimpleButton5.Location = New System.Drawing.Point(1315, 54)
+        Me.SimpleButton5.Name = "SimpleButton5"
+        Me.SimpleButton5.Size = New System.Drawing.Size(24, 29)
+        Me.SimpleButton5.TabIndex = 316
+        Me.SimpleButton5.TabStop = false
+        '
+        'FrmKnowledge
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6!, 13!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.ClientSize = New System.Drawing.Size(1362, 741)
+        Me.Controls.Add(Me.StatusStrip1)
+        Me.Controls.Add(Me.SimpleButton5)
+        Me.Controls.Add(Me.Panel5)
+        Me.Controls.Add(Me.TabControl1)
+        Me.Controls.Add(Me.Panel2)
+        Me.Controls.Add(Me.Panel1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
+        Me.Icon = CType(resources.GetObject("$this.Icon"),System.Drawing.Icon)
+        Me.Name = "FrmKnowledge"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
+        Me.Text = "ANTIRETROVIRAL DRUG RESISTANCE RATE PREDICTION SYSTEM"
+        Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
+        Me.TabPage2.ResumeLayout(false)
+        CType(Me.PictureBox2,System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel3.ResumeLayout(false)
+        Me.GroupBox4.ResumeLayout(false)
+        Me.GroupBox4.PerformLayout
+        CType(Me.v4.Properties,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.v3.Properties,System.ComponentModel.ISupportInitialize).EndInit
+        Me.GroupBox1.ResumeLayout(false)
+        Me.GroupBox1.PerformLayout
+        CType(Me.v2.Properties,System.ComponentModel.ISupportInitialize).EndInit
+        Me.TabPage3.ResumeLayout(false)
+        CType(Me.PictureBox1,System.ComponentModel.ISupportInitialize).EndInit
+        Me.GroupBox3.ResumeLayout(false)
+        Me.GroupBox5.ResumeLayout(false)
+        Me.GroupBox5.PerformLayout
+        CType(Me.l2.Properties,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.o2.Properties,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.s2.Properties,System.ComponentModel.ISupportInitialize).EndInit
+        Me.groupBox2.ResumeLayout(false)
+        Me.groupBox2.PerformLayout
+        CType(Me.l1.Properties,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.o1.Properties,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.s1.Properties,System.ComponentModel.ISupportInitialize).EndInit
+        Me.TabControl1.ResumeLayout(false)
+        Me.TabPage4.ResumeLayout(false)
+        CType(Me.PictureBox3,System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel4.ResumeLayout(false)
+        Me.GroupBox6.ResumeLayout(false)
+        Me.GroupBox6.PerformLayout
+        CType(Me.c4.Properties,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.c3.Properties,System.ComponentModel.ISupportInitialize).EndInit
+        Me.GroupBox7.ResumeLayout(false)
+        Me.GroupBox7.PerformLayout
+        CType(Me.c2.Properties,System.ComponentModel.ISupportInitialize).EndInit
+        Me.TabPage5.ResumeLayout(false)
+        CType(Me.PictureBox4,System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel6.ResumeLayout(false)
+        Me.GroupBox8.ResumeLayout(false)
+        Me.GroupBox8.PerformLayout
+        CType(Me.d5.Properties,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.d4.Properties,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.d3.Properties,System.ComponentModel.ISupportInitialize).EndInit
+        Me.GroupBox9.ResumeLayout(false)
+        Me.GroupBox9.PerformLayout
+        CType(Me.d2.Properties,System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel1.ResumeLayout(false)
+        Me.StatusStrip1.ResumeLayout(false)
+        Me.StatusStrip1.PerformLayout
+        Me.ResumeLayout(false)
+
+End Sub
+    Friend WithEvents SimpleButton5 As DevExpress.XtraEditors.SimpleButton
+    Friend WithEvents Panel5 As Panel
+    Friend WithEvents TabPage2 As TabPage
+    Friend WithEvents TabPage3 As TabPage
+    Friend WithEvents TabControl1 As TabControl
+    Friend WithEvents Panel2 As Panel
+    Friend WithEvents TileItem5 As DevExpress.XtraEditors.TileItem
+    Friend WithEvents TileItem3 As DevExpress.XtraEditors.TileItem
+    Friend WithEvents TileGroup2 As DevExpress.XtraEditors.TileGroup
+    Friend WithEvents TileControl1 As DevExpress.XtraEditors.TileControl
+    Friend WithEvents Panel1 As Panel
+    Friend WithEvents TabPage4 As TabPage
+    Friend WithEvents TabPage5 As TabPage
+    Friend WithEvents TabPage6 As TabPage
+    Friend WithEvents StatusStrip1 As StatusStrip
+    Friend WithEvents ToolStripStatusLabel3 As ToolStripStatusLabel
+    Friend WithEvents ToolStripStatusLabel4 As ToolStripStatusLabel
+    Friend WithEvents ToolStripStatusLabel1 As ToolStripStatusLabel
+    Friend WithEvents ToolStripStatusLabel2 As ToolStripStatusLabel
+    Private WithEvents GroupBox3 As GroupBox
+    Friend WithEvents SimpleButton7 As DevExpress.XtraEditors.SimpleButton
+    Private WithEvents groupBox2 As GroupBox
+    Friend WithEvents s1 As DevExpress.XtraEditors.TextEdit
+    Private WithEvents label37 As Label
+    Friend WithEvents SerialPort1 As IO.Ports.SerialPort
+    Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents Panel3 As Panel
+    Friend WithEvents GroupBox1 As GroupBox
+    Friend WithEvents v2 As DevExpress.XtraEditors.TextEdit
+    Private WithEvents Label2 As Label
+    Private WithEvents Label3 As Label
+    Friend WithEvents v1 As MaskedTextBox
+    Friend WithEvents PictureBox2 As PictureBox
+    Friend WithEvents GroupBox4 As GroupBox
+    Friend WithEvents v4 As DevExpress.XtraEditors.TextEdit
+    Friend WithEvents v3 As DevExpress.XtraEditors.ComboBoxEdit
+    Private WithEvents Label4 As Label
+    Private WithEvents Label7 As Label
+    Friend WithEvents SimpleButton1 As DevExpress.XtraEditors.SimpleButton
+    Friend WithEvents PictureBox3 As PictureBox
+    Friend WithEvents Panel4 As Panel
+    Friend WithEvents SimpleButton2 As DevExpress.XtraEditors.SimpleButton
+    Friend WithEvents GroupBox6 As GroupBox
+    Private WithEvents Label15 As Label
+    Friend WithEvents c4 As DevExpress.XtraEditors.TextEdit
+    Friend WithEvents c3 As DevExpress.XtraEditors.ComboBoxEdit
+    Private WithEvents Label8 As Label
+    Private WithEvents Label9 As Label
+    Friend WithEvents GroupBox7 As GroupBox
+    Friend WithEvents c2 As DevExpress.XtraEditors.TextEdit
+    Private WithEvents Label10 As Label
+    Private WithEvents Label14 As Label
+    Friend WithEvents c1 As MaskedTextBox
+    Friend WithEvents PictureBox4 As PictureBox
+    Friend WithEvents Panel6 As Panel
+    Friend WithEvents SimpleButton3 As DevExpress.XtraEditors.SimpleButton
+    Friend WithEvents GroupBox8 As GroupBox
+    Private WithEvents Label16 As Label
+    Friend WithEvents d4 As DevExpress.XtraEditors.TextEdit
+    Friend WithEvents d3 As DevExpress.XtraEditors.ComboBoxEdit
+    Private WithEvents Label17 As Label
+    Private WithEvents Label18 As Label
+    Friend WithEvents GroupBox9 As GroupBox
+    Friend WithEvents d2 As DevExpress.XtraEditors.TextEdit
+    Private WithEvents Label19 As Label
+    Private WithEvents Label20 As Label
+    Friend WithEvents d1 As MaskedTextBox
+    Friend WithEvents d5 As DevExpress.XtraEditors.ComboBoxEdit
+    Private WithEvents GroupBox5 As GroupBox
+    Friend WithEvents l2 As DevExpress.XtraEditors.TextEdit
+    Private WithEvents Label6 As Label
+    Friend WithEvents o2 As DevExpress.XtraEditors.TextEdit
+    Private WithEvents Label11 As Label
+    Friend WithEvents s2 As DevExpress.XtraEditors.TextEdit
+    Private WithEvents Label12 As Label
+    Friend WithEvents l1 As DevExpress.XtraEditors.TextEdit
+    Private WithEvents Label5 As Label
+    Friend WithEvents o1 As DevExpress.XtraEditors.TextEdit
+    Private WithEvents Label1 As Label
+    Friend WithEvents SimpleButton4 As DevExpress.XtraEditors.SimpleButton
+End Class

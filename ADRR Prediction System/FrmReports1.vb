@@ -28,4 +28,8 @@ Public Class FrmReports1
     Private Sub TileItem4_ItemClick(sender As Object, e As DevExpress.XtraEditors.TileItemEventArgs) 
         MsgBox("Under Development")
     End Sub
+    'comment
+    Private Sub FrmReports1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
 End Class
